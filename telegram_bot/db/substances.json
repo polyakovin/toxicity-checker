@@ -1,0 +1,492 @@
+[
+  {
+    "name_ru": "Лаурилсульфат натрия",
+    "name_en": "Sodium Lauryl Sulfate",
+    "synonyms": ["SLS", "sodium lauryl sulfate", "sodium dodecyl sulfate", "SDS", "натрий лаурилсульфат"],
+    "category": "irritant",
+    "danger_level": "medium",
+    "description": "Поверхностно-активное вещество, может вызывать раздражение кожи и слизистых, сухость, нарушение барьерной функции кожи.",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011"
+  },
+  {
+    "name_ru": "Лауретсульфат натрия",
+    "name_en": "Sodium Laureth Sulfate",
+    "synonyms": ["SLES", "sodium laureth sulfate", "sodium lauryl ether sulfate", "натрий лауретсульфат"],
+    "category": "irritant",
+    "danger_level": "medium",
+    "description": "ПАВ, может быть загрязнён 1,4-диоксаном (потенциальный канцероген). Раздражает кожу при высокой концентрации.",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011"
+  },
+  {
+    "name_ru": "Метилпарабен",
+    "name_en": "Methylparaben",
+    "synonyms": ["methyl paraben", "E218", "метилпарабен", "methyl 4-hydroxybenzoate"],
+    "category": "endocrine_disruptor",
+    "danger_level": "medium",
+    "description": "Консервант с эстрогенной активностью. Может накапливаться в тканях, потенциальный эндокринный разрушитель.",
+    "source": "CosIng, PubChem, ECHA",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "Пропилпарабен",
+    "name_en": "Propylparaben",
+    "synonyms": ["propyl paraben", "E216", "пропилпарабен", "propyl 4-hydroxybenzoate"],
+    "category": "endocrine_disruptor",
+    "danger_level": "medium",
+    "description": "Консервант с доказанной эстрогенной активностью. Нарушает работу эндокринной системы.",
+    "source": "CosIng, PubChem, ECHA",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "Бутилпарабен",
+    "name_en": "Butylparaben",
+    "synonyms": ["butyl paraben", "бутилпарабен"],
+    "category": "endocrine_disruptor",
+    "danger_level": "medium",
+    "description": "Самый сильный из парабенов по эстрогенной активности. Запрещён в детской косметике в некоторых странах.",
+    "source": "CosIng, PubChem, ECHA",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "Формальдегид",
+    "name_en": "Formaldehyde",
+    "synonyms": ["formalin", "формалин", "methanal", "formic aldehyde"],
+    "category": "carcinogen",
+    "danger_level": "high",
+    "description": "Канцероген (группа 1 по IARC). Вызывает рак носоглотки, лейкемию. Часто присутствует как примесь в косметике.",
+    "source": "IARC, PubChem, ECHA",
+    "regulation": "ТР ТС 009/2011 (запрещён)"
+  },
+  {
+    "name_ru": "ДМДМ Гидантоин",
+    "name_en": "DMDM Hydantoin",
+    "synonyms": ["dmdm hydantoin", "DMDM-гидантоин", "1,3-bis(hydroxymethyl)-5,5-dimethylimidazolidine-2,4-dione"],
+    "category": "allergen",
+    "danger_level": "medium",
+    "description": "Консервант-донор формальдегида. Высвобождает формальдегид, вызывает аллергические реакции и контактный дерматит.",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "Имидазолидинилмочевина",
+    "name_en": "Imidazolidinyl Urea",
+    "synonyms": ["imidazolidinyl urea", "Germall 115", "имидазолидинил мочевина"],
+    "category": "allergen",
+    "danger_level": "medium",
+    "description": "Консервант-донор формальдегида. Высвобождает формальдегид, частый аллерген в косметике.",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "Кватерниум-15",
+    "name_en": "Quaternium-15",
+    "synonyms": ["quaternium 15", "Dowicil 200", "кватерниум 15"],
+    "category": "allergen",
+    "danger_level": "high",
+    "description": "Консервант-донор формальдегида. Высвобождает наибольшее количество формальдегида среди всех доноров. Сильный аллерген.",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "Фталаты",
+    "name_en": "Phthalates",
+    "synonyms": ["DBP", "DEHP", "DEP", "dimethyl phthalate", "diethyl phthalate", "dibutyl phthalate", "дибутилфталат", "диэтилфталат"],
+    "category": "endocrine_disruptor",
+    "danger_level": "high",
+    "description": "Эндокринные разрушители. Связаны с репродуктивными нарушениями, ожирением, диабетом. Часто скрыты под словом 'Parfum'.",
+    "source": "ECHA, PubChem",
+    "regulation": "ТР ТС 009/2011 (запрещены)"
+  },
+  {
+    "name_ru": "Триклозан",
+    "name_en": "Triclosan",
+    "synonyms": ["triclosan", "триклозан", "Irgasan", "5-chloro-2-(2,4-dichlorophenoxy)phenol"],
+    "category": "endocrine_disruptor",
+    "danger_level": "high",
+    "description": "Антибактериальное средство. Эндокринный разрушитель, способствует устойчивости бактерий. Запрещён в мыле в США (FDA).",
+    "source": "FDA, PubChem, ECHA",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "BHA (бутилгидроксианизол)",
+    "name_en": "Butylated Hydroxyanisole",
+    "synonyms": ["BHA", "butylated hydroxyanisole", "E320", "бутилгидроксианизол"],
+    "category": "carcinogen",
+    "danger_level": "high",
+    "description": "Консервант-антиоксидант. Возможный канцероген (группа 2B по IARC). Запрещён в детском питании в ЕС.",
+    "source": "IARC, PubChem",
+    "regulation": "ТР ТС 029/2012 (ограничен)"
+  },
+  {
+    "name_ru": "BHT (бутилгидрокситолуол)",
+    "name_en": "Butylated Hydroxytoluene",
+    "synonyms": ["BHT", "butylated hydroxytoluene", "E321", "бутилгидрокситолуол", "дибунол"],
+    "category": "endocrine_disruptor",
+    "danger_level": "medium",
+    "description": "Консервант-антиоксидант. Подозревается в эндокринной активности, может вызывать нарушения репродуктивной функции.",
+    "source": "ECHA, PubChem",
+    "regulation": "ТР ТС 029/2012 (ограничен)"
+  },
+  {
+    "name_ru": "Оксибензон",
+    "name_en": "Oxybenzone",
+    "synonyms": ["oxybenzone", "benzophenone-3", "BP-3", "оксибензон", "бензофенон-3"],
+    "category": "endocrine_disruptor",
+    "danger_level": "high",
+    "description": "УФ-фильтр. Эндокринный разрушитель, вызывает обесцвечивание кораллов. Запрещён в Гавайях и Палау.",
+    "source": "PubChem, ECHA",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "Октокрилен",
+    "name_en": "Octocrylene",
+    "synonyms": ["octocrylene", "октокрилен", "2-ethylhexyl 2-cyano-3,3-diphenylacrylate"],
+    "category": "allergen",
+    "danger_level": "medium",
+    "description": "УФ-фильтр. Может вызывать фотоаллергические реакции, загрязнён бензофеноном (канцероген).",
+    "source": "PubChem, ECHA",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "Минеральное масло",
+    "name_en": "Mineral Oil",
+    "synonyms": ["mineral oil", "paraffinum liquidum", "petrolatum", "парафиновое масло", "вазелин", "вазелиновое масло", "petroleum jelly"],
+    "category": "irritant",
+    "danger_level": "medium",
+    "description": "Продукт нефтепереработки. Создаёт окклюзионную плёнку на коже, закупоривает поры, может содержать примеси ПАУ (полиароматических углеводородов).",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "ПЭГ (полиэтиленгликоль)",
+    "name_en": "PEG (Polyethylene Glycol)",
+    "synonyms": ["PEG", "polyethylene glycol", "PEG-100", "PEG-40", "PEG-7", "полиэтиленгликоль", "макрогол"],
+    "category": "irritant",
+    "danger_level": "medium",
+    "description": "Эмульгатор. Может быть загрязнён 1,4-диоксаном и этиленоксидом (канцерогены). Повышает проницаемость кожи для других веществ.",
+    "source": "CosIng, PubChem, ECHA",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "ДЭА (диэтаноламин)",
+    "name_en": "DEA (Diethanolamine)",
+    "synonyms": ["DEA", "diethanolamine", "диэтаноламин", "cocamide DEA"],
+    "category": "carcinogen",
+    "danger_level": "high",
+    "description": "Эмульгатор/стабилизатор пены. Может образовывать нитрозамины (канцерогены) при реакции с нитритами. Запрещён в косметике ЕС.",
+    "source": "CosIng, IARC, PubChem",
+    "regulation": "ТР ТС 009/2011 (запрещён)"
+  },
+  {
+    "name_ru": "ТЭА (триэтаноламин)",
+    "name_en": "TEA (Triethanolamine)",
+    "synonyms": ["TEA", "triethanolamine", "триэтаноламин", "trolamine"],
+    "category": "allergen",
+    "danger_level": "medium",
+    "description": "Регулятор pH/эмульгатор. Может образовывать нитрозамины, вызывает аллергию при длительном контакте.",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "Гидрохинон",
+    "name_en": "Hydroquinone",
+    "synonyms": ["hydroquinone", "гидрохинон", "quinol", "1,4-benzenediol"],
+    "category": "carcinogen",
+    "danger_level": "high",
+    "description": "Отбеливающее средство. Канцероген, вызывает охроноз (необратимую пигментацию кожи). Запрещён в косметике ЕС и РФ.",
+    "source": "IARC, PubChem, ECHA",
+    "regulation": "ТР ТС 009/2011 (запрещён)"
+  },
+  {
+    "name_ru": "Толуол",
+    "name_en": "Toluene",
+    "synonyms": ["toluene", "толуол", "methylbenzene", "толуен"],
+    "category": "irritant",
+    "danger_level": "high",
+    "description": "Растворитель в лаках для ногтей. Нейротоксичен, вызывает головные боли, головокружение, поражение печени и почек.",
+    "source": "PubChem, ECHA",
+    "regulation": "ТР ТС 009/2011 (запрещён)"
+  },
+  {
+    "name_ru": "Феноксиэтанол",
+    "name_en": "Phenoxyethanol",
+    "synonyms": ["phenoxyethanol", "феноксиэтанол", "2-phenoxyethanol", "Euxyl K 400"],
+    "category": "allergen",
+    "danger_level": "medium",
+    "description": "Консервант. Может вызывать аллергию, раздражение кожи. Токсичен для нервной системы младенцев (запрещён в детской косметике во Франции).",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011 (разрешён, ограничен)"
+  },
+  {
+    "name_ru": "Метилизотиазолинон",
+    "name_en": "Methylisothiazolinone",
+    "synonyms": ["methylisothiazolinone", "MIT", "MI", "метилизотиазолинон", "2-methyl-4-isothiazolin-3-one"],
+    "category": "allergen",
+    "danger_level": "high",
+    "description": "Консервант. Сильный аллерген, вызывает контактный дерматит. Запрещён в несмываемой косметике в ЕС.",
+    "source": "CosIng, PubChem, ECHA",
+    "regulation": "ТР ТС 009/2011 (ограничен до 0.0015%)"
+  },
+  {
+    "name_ru": "Метилхлоризотиазолинон",
+    "name_en": "Methylchloroisothiazolinone",
+    "synonyms": ["methylchloroisothiazolinone", "MCI", "CMIT", "метилхлоризотиазолинон", "Kathon CG"],
+    "category": "allergen",
+    "danger_level": "high",
+    "description": "Консервант. Один из самых сильных аллергенов в косметике. Запрещён в несмываемых продуктах в ЕС.",
+    "source": "CosIng, PubChem, ECHA",
+    "regulation": "ТР ТС 009/2011 (ограничен, только смываемая)"
+  },
+  {
+    "name_ru": "Силиконы (диметикон, циклометикон)",
+    "name_en": "Silicones (Dimethicone, Cyclomethicone)",
+    "synonyms": ["dimethicone", "cyclomethicone", "dimethiconol", "cyclotetrasiloxane", "cyclopentasiloxane", "cyclohexasiloxane", "диметикон", "циклометикон", "D4", "D5", "D6"],
+    "category": "irritant",
+    "danger_level": "medium",
+    "description": "Синтетические полимеры. Закупоривают поры, создают эффект плёнки. D4 и D5 накапливаются в окружающей среде, токсичны для водных организмов.",
+    "source": "CosIng, ECHA",
+    "regulation": "ТР ТС 009/2011 (разрешены, D4/D5 ограничены в ЕС)"
+  },
+  {
+    "name_ru": "Тальк",
+    "name_en": "Talc",
+    "synonyms": ["talc", "тальк", "magnesium silicate", "тальковая пудра"],
+    "category": "carcinogen",
+    "danger_level": "high",
+    "description": "Минерал. Может быть загрязнён асбестом (канцероген). Связан с раком яичников и лёгких при вдыхании.",
+    "source": "IARC (группа 2B), PubChem",
+    "regulation": "ТР ТС 009/2011 (разрешён, должен быть без асбеста)"
+  },
+  {
+    "name_ru": "Бензофенон",
+    "name_en": "Benzophenone",
+    "synonyms": ["benzophenone", "BP-1", "BP-2", "бензофенон", "diphenylmethanone"],
+    "category": "carcinogen",
+    "danger_level": "low",
+    "description": "УФ-фильтр и ароматизатор. Возможный канцероген (группа 2B по IARC), эндокринный разрушитель.",
+    "source": "IARC, PubChem",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "Алюминий (соли)",
+    "name_en": "Aluminum Compounds",
+    "synonyms": ["aluminum", "aluminium", "aluminum chloride", "aluminum chlorohydrate", "aluminum zirconium", "алюминий", "хлорид алюминия", "хлоргидрат алюминия"],
+    "category": "endocrine_disruptor",
+    "danger_level": "medium",
+    "description": "Антиперспирант. Подозревается в связи с раком молочной железы и болезнью Альцгеймера. Доказательства ограничены.",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "Резорцин",
+    "name_en": "Resorcinol",
+    "synonyms": ["resorcinol", "резорцин", "1,3-benzenediol", "резорцинол"],
+    "category": "endocrine_disruptor",
+    "danger_level": "high",
+    "description": "Краситель для волос. Эндокринный разрушитель, влияет на щитовидную железу. Вызывает кожную аллергию.",
+    "source": "ECHA, PubChem",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "Свинец и его соединения",
+    "name_en": "Lead and compounds",
+    "synonyms": ["lead", "lead acetate", "свинец", "ацетат свинца", "plumbum", "Pb"],
+    "category": "carcinogen",
+    "danger_level": "high",
+    "description": "Тяжёлый металл. Нейротоксин, накапливается в костях. Часто содержится в красках для волос и губной помаде как примесь.",
+    "source": "IARC (группа 2B), PubChem",
+    "regulation": "ТР ТС 009/2011 (запрещён)"
+  },
+  {
+    "name_ru": "Ртуть и её соединения",
+    "name_en": "Mercury and compounds",
+    "synonyms": ["mercury", "thimerosal", "merthiolate", "ртуть", "тимеросал", "мертиолят", "Hg"],
+    "category": "carcinogen",
+    "danger_level": "high",
+    "description": "Тяжёлый металл. Нейротоксин, поражает нервную систему. Ранее использовался в косметике для глаз. Запрещён.",
+    "source": "WHO, PubChem",
+    "regulation": "ТР ТС 009/2011 (запрещена)"
+  },
+  {
+    "name_ru": "Микропластик",
+    "name_en": "Microplastics",
+    "synonyms": ["polyethylene", "polypropylene", "nylon-12", "nylon-6", "acrylate copolymer", "полиэтилен", "полипропилен", "нейлон"],
+    "category": "irritant",
+    "danger_level": "low",
+    "description": "Микрочастицы пластика в скрабах. Загрязняют окружающую среду, попадают в пищевую цепь. Запрещены в ЕС с 2023.",
+    "source": "ECHA, EU Regulation",
+    "regulation": "ТР ТС 009/2011 (не урегулирован)"
+  },
+  {
+    "name_ru": "ЭДТА (этилендиаминтетрауксусная кислота)",
+    "name_en": "EDTA (Ethylenediaminetetraacetic acid)",
+    "synonyms": ["EDTA", "disodium EDTA", "tetrasodium EDTA", "calcium disodium EDTA", "этилендиаминтетрауксусная кислота", "ЭДТА", "трилон Б"],
+    "category": "irritant",
+    "danger_level": "low",
+    "description": "Хелатирующий агент. Плохо биоразлагается, может мобилизовать тяжёлые металлы в окружающей среде.",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011 (разрешён)"
+  },
+  {
+    "name_ru": "Бензиловый спирт",
+    "name_en": "Benzyl Alcohol",
+    "synonyms": ["benzyl alcohol", "бензиловый спирт", "phenylmethanol", "E1519"],
+    "category": "allergen",
+    "danger_level": "medium",
+    "description": "Консервант и ароматизатор. Аллерген, может вызывать раздражение. Запрещён в детской косметике (Франция).",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011 (ограничен, не для детей до 3 лет)"
+  },
+  {
+    "name_ru": "Акрилаты",
+    "name_en": "Acrylates",
+    "synonyms": ["acrylate", "ethyl acrylate", "methyl methacrylate", "butyl acrylate", "акрилаты", "метилакрилат", "этилакрилат"],
+    "category": "allergen",
+    "danger_level": "medium",
+    "description": "Полимеры для гелей и лаков. Вызывают контактную аллергию, особенно в гель-лаках для ногтей.",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011 (ограничены)"
+  },
+  {
+    "name_ru": "Парафенилендиамин",
+    "name_en": "p-Phenylenediamine",
+    "synonyms": ["PPD", "p-phenylenediamine", "парафенилендиамин", "1,4-diaminobenzene", "окрашивающая основа"],
+    "category": "allergen",
+    "danger_level": "high",
+    "description": "Краситель для волос. Сильный аллерген, может вызывать анафилактический шок. Главный компонент хны для тату.",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "Перекись водорода",
+    "name_en": "Hydrogen Peroxide",
+    "synonyms": ["hydrogen peroxide", "перекись водорода", "пероксид водорода", "H2O2"],
+    "category": "irritant",
+    "danger_level": "medium",
+    "description": "Окислитель в красках для волос. Вызывает ожоги, раздражение, повреждение волос. Свободные радикалы.",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011 (ограничен до 12%)"
+  },
+  {
+    "name_ru": "Ланолин",
+    "name_en": "Lanolin",
+    "synonyms": ["lanolin", "ланолин", "wool wax", "wool fat", "ланолиновый спирт"],
+    "category": "allergen",
+    "danger_level": "medium",
+    "description": "Животный воск. Может быть загрязнён пестицидами, вызывает аллергию у чувствительных людей.",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011 (разрешён)"
+  },
+  {
+    "name_ru": "Этаноламин",
+    "name_en": "Ethanolamine",
+    "synonyms": ["ethanolamine", "monoethanolamine", "MEA", "этаноламин", "моноэтаноламин", "2-aminoethanol"],
+    "category": "irritant",
+    "danger_level": "medium",
+    "description": "Регулятор pH. Может образовывать нитрозамины, раздражает кожу и слизистые при высоких концентрациях.",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "Синтетическая отдушка",
+    "name_en": "Parfum/Fragrance",
+    "synonyms": ["parfum", "fragrance", "perfume", "ароматическая композиция", "отдушка", "парфюм"],
+    "category": "allergen",
+    "danger_level": "medium",
+    "description": "Смесь химических веществ. Может содержать до 200 компонентов, включая фталаты. Частый аллерген. Состав скрыт под одним словом.",
+    "source": "CosIng, ECHA",
+    "regulation": "ТР ТС 009/2011 (разрешена, 26 аллергенов должны быть указаны)"
+  },
+  {
+    "name_ru": "Петролатум",
+    "name_en": "Petrolatum",
+    "synonyms": ["petrolatum", "petroleum jelly", "soft paraffin", "вазелин", "петролатум", "мягкий парафин"],
+    "category": "irritant",
+    "danger_level": "medium",
+    "description": "Продукт нефтепереработки. Может содержать ПАУ (канцерогены) при плохой очистке. Окклюзионный эффект.",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011 (разрешён при полной очистке)"
+  },
+  {
+    "name_ru": "Октиноксат",
+    "name_en": "Octinoxate",
+    "synonyms": ["octinoxate", "octyl methoxycinnamate", "OMC", "этилгексил метоксициннамат", "октиноксат"],
+    "category": "endocrine_disruptor",
+    "danger_level": "medium",
+    "description": "УФ-фильтр. Эндокринный разрушитель, токсичен для кораллов. Запрещён в Гавайях.",
+    "source": "PubChem, ECHA",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "Ретинилпальмитат",
+    "name_en": "Retinyl Palmitate",
+    "synonyms": ["retinyl palmitate", "vitamin A palmitate", "ретинилпальмитат", "ретинола пальмитат"],
+    "category": "carcinogen",
+    "danger_level": "low",
+    "description": "Производное витамина А. На солнце может ускорять образование опухолей кожи. Избегать в дневных средствах.",
+    "source": "NTP, PubChem",
+    "regulation": "ТР ТС 009/2011 (разрешён)"
+  },
+  {
+    "name_ru": "Каменноугольная смола",
+    "name_en": "Coal Tar",
+    "synonyms": ["coal tar", "каменноугольная смола", "каменноугольный дёготь", "pix lithanthracis"],
+    "category": "carcinogen",
+    "danger_level": "high",
+    "description": "Продукт переработки угля. Канцероген (группа 1 по IARC). Используется в шампунях от перхоти.",
+    "source": "IARC, PubChem",
+    "regulation": "ТР ТС 009/2011 (запрещён)"
+  },
+  {
+    "name_ru": "Изопропиловый спирт",
+    "name_en": "Isopropyl Alcohol",
+    "synonyms": ["isopropyl alcohol", "isopropanol", "изопропиловый спирт", "изопропанол", "2-propanol"],
+    "category": "irritant",
+    "danger_level": "medium",
+    "description": "Растворитель. Сушит кожу, нарушает липидный барьер. При попадании в глаза вызывает раздражение.",
+    "source": "PubChem",
+    "regulation": "ТР ТС 009/2011 (разрешён)"
+  },
+  {
+    "name_ru": "Хлорфенезин",
+    "name_en": "Chlorphenesin",
+    "synonyms": ["chlorphenesin", "хлорфенезин", "3-(4-chlorophenoxy)-1,2-propanediol"],
+    "category": "allergen",
+    "danger_level": "medium",
+    "description": "Консервант. Может вызывать контактный дерматит. Не разрешён в Японии.",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "Бронопол",
+    "name_en": "Bronopol",
+    "synonyms": ["bronopol", "2-bromo-2-nitropropane-1,3-diol", "бронопол"],
+    "category": "allergen",
+    "danger_level": "medium",
+    "description": "Консервант-донор формальдегида. Может образовывать нитрозамины. Вызывает аллергию.",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 009/2011 (ограничен)"
+  },
+  {
+    "name_ru": "Бензойная кислота",
+    "name_en": "Benzoic Acid",
+    "synonyms": ["benzoic acid", "бензойная кислота", "E210", "sodium benzoate", "бензоат натрия", "E211"],
+    "category": "irritant",
+    "danger_level": "low",
+    "description": "Консервант. В сочетании с витамином С может образовывать бензол (канцероген). Безопасен отдельно.",
+    "source": "CosIng, PubChem",
+    "regulation": "ТР ТС 029/2012 (ограничен)"
+  },
+  {
+    "name_ru": "Бензол",
+    "name_en": "Benzene",
+    "synonyms": ["benzene", "бензол", "benzol"],
+    "category": "carcinogen",
+    "danger_level": "high",
+    "description": "Растворитель. Канцероген (группа 1 по IARC). Вызывает лейкемию. Иногда примесь в косметике.",
+    "source": "IARC, PubChem",
+    "regulation": "ТР ТС 009/2011 (запрещён)"
+  }
+]

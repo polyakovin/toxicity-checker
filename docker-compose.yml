@@ -1,0 +1,7 @@
+services:
+  bot:
+    build: ./telegram_bot
+    env_file: .env
+    volumes:
+      - ./telegram_bot/db:/app/db
+    restart: unless-stopped
