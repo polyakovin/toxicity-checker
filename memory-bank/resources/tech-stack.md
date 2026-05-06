@@ -20,5 +20,8 @@ updated: 2026-05-07
 | pytesseract | Python binding for Tesseract | — |
 | SQLite | Local database | aiosqlite for async |
 | Docker | Containerization | Docker Compose for deployment |
+| Docker Compose v2 | Multi-container orchestration | docker compose (plugin) |
+| twc-cli | Timeweb Cloud management | Deploy and manage VPS via CLI |
+| Timeweb Cloud | Cloud hosting (VPS) | ru-1 region (Saint Petersburg) |
 | PubChem REST API | Chemical substance data | External lookup |
 | OpenFoodFacts API | Product data by barcode | External lookup |

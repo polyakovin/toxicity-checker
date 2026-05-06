@@ -4,6 +4,7 @@ Entry point for AI agents. Start here every session.
 ## Navigation
 - [[tech-stack]] — languages, frameworks, tools
 - [[glossary]] — domain terminology
+- [[deployment]] — server info, twc CLI, deploy commands
 - [[user-preferences]] — style, naming, prohibitions
 - [[decisions/INDEX]] — ADRs, don't undo past decisions
 - [[areas/INDEX]] — ongoing conventions (architecture, coding, security)

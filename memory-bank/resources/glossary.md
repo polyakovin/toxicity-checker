@@ -13,3 +13,6 @@ Domain terminology.
 | INCI | International Nomenclature of Cosmetic Ingredients |
 | OCR | Optical Character Recognition — распознавание текста с фото |
 | Нечёткий поиск | Алгоритм сопоставления строк с опечатками и вариациями написания |
+| Timeweb Cloud | Российский облачный провайдер (VPS, DBaaS, S3, K8s). Регион ru-1 — Санкт-Петербург |
+| twc | Timeweb Cloud CLI (`pip install twc-cli`) — управление серверами, базами, приложениями |
+| VPS | Виртуальный выделенный сервер (Cloud Server) для размещения бота |
