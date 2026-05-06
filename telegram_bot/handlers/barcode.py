@@ -1,6 +1,7 @@
 import re
-from aiogram import Router, F
+from aiogram import Router
 from aiogram.types import Message
+from aiogram.filters import Filter
 from loguru import logger
 
 from services.barcode import lookup_barcode
@@ -13,11 +14,14 @@ router = Router()
 BARCODE_RE = re.compile(r"^\d{8,14}$")
 
 
-@router.message(F.text & ~F.text.startswith("/"))
+class IsBarcode(Filter):
+    async def __call__(self, message: Message) -> bool:
+        return bool(BARCODE_RE.match(message.text or ""))
+
+
+@router.message(IsBarcode())
 async def handle_barcode(message: Message):
     text = message.text.strip()
-    if not BARCODE_RE.match(text):
-        return
 
     await message.answer("\U0001f50d Ищу продукт по штрихкоду...")
 
