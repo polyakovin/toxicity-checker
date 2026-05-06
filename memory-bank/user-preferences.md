@@ -18,6 +18,10 @@ Style, naming, libraries, and prohibitions.
 - Never introduce secrets or credentials into code
 - Never guess library versions — check the project's config files
 - Never add a library without checking if it's already in the project
+## Memory
+- Proactively save deployment/infrastructure/setup details to project memory-bank without being asked
+- After creating servers, configuring tools, deploying — update relevant memory files immediately
+- Never wait for the user to ask «запомни это»
 ## Verification
 - Run linter + typechecker before declaring done
 - Run tests (at least the relevant subset)
